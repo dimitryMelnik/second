@@ -1,0 +1,72 @@
+2024-08-15 17:01:59,777 - conftest - INFO - reached login screen
+2024-08-15 17:02:01,902 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:01,927 - conftest - INFO - Browser closed
+2024-08-15 17:02:05,457 - conftest - INFO - reached login screen
+2024-08-15 17:02:07,072 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:07,096 - conftest - INFO - Browser closed
+2024-08-15 17:02:10,007 - conftest - INFO - reached login screen
+2024-08-15 17:02:12,102 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:12,122 - conftest - INFO - Browser closed
+2024-08-15 17:02:16,746 - conftest - INFO - reached login screen
+2024-08-15 17:02:21,935 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:21,960 - conftest - INFO - Browser closed
+2024-08-15 17:02:26,635 - conftest - INFO - reached login screen
+2024-08-15 17:02:29,772 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:29,796 - conftest - INFO - Browser closed
+2024-08-15 17:02:32,952 - conftest - INFO - reached login screen
+2024-08-15 17:02:35,057 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:35,080 - conftest - INFO - Browser closed
+2024-08-15 17:02:42,308 - conftest - INFO - reached login screen
+2024-08-15 17:02:44,447 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:44,467 - conftest - INFO - Browser closed
+2024-08-15 17:02:47,466 - conftest - INFO - reached login screen
+2024-08-15 17:02:50,076 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:50,106 - conftest - INFO - Browser closed
+2024-08-15 17:02:55,751 - conftest - INFO - reached login screen
+2024-08-15 17:02:57,330 - conftest - INFO - Negative test - Passed
+2024-08-15 17:02:57,349 - conftest - INFO - Browser closed
+2024-08-15 17:03:00,418 - conftest - INFO - reached login screen
+2024-08-15 17:03:03,041 - conftest - INFO - Negative test - Passed
+2024-08-15 17:03:03,069 - conftest - INFO - Browser closed
+2024-08-15 17:03:05,927 - conftest - INFO - reached login screen
+2024-08-15 17:03:10,071 - conftest - INFO - Negative test - Passed
+2024-08-15 17:03:10,086 - conftest - INFO - Browser closed
+2024-08-15 17:03:13,158 - conftest - INFO - reached login screen
+2024-08-15 17:03:15,257 - conftest - INFO - Negative test - Passed
+2024-08-15 17:03:15,278 - conftest - INFO - Browser closed
+2024-08-15 17:03:22,058 - conftest - INFO - reached login screen
+2024-08-15 17:03:23,648 - conftest - INFO - Negative test - Passed
+2024-08-15 17:03:23,668 - conftest - INFO - Browser closed
+2024-08-15 17:03:26,634 - conftest - INFO - reached login screen
+2024-08-15 17:03:28,735 - conftest - INFO - Negative test - Passed
+2024-08-15 17:03:28,756 - conftest - INFO - Browser closed
+2024-08-15 17:03:31,782 - conftest - INFO - reached login screen
+2024-08-15 17:03:33,866 - conftest - INFO - Negative test - Passed
+2024-08-15 17:03:33,886 - conftest - INFO - Browser closed
+2024-08-15 17:03:36,905 - conftest - INFO - reached login screen
+2024-08-15 17:03:40,046 - conftest - INFO - Positive test - Passed
+2024-08-15 17:03:40,063 - conftest - INFO - Browser closed
+2024-08-15 17:03:43,211 - conftest - INFO - reached login screen
+2024-08-15 17:03:46,868 - conftest - INFO - Positive test - Passed
+2024-08-15 17:03:46,889 - conftest - INFO - Browser closed
+2024-08-15 17:03:49,755 - conftest - INFO - reached login screen
+2024-08-15 17:03:54,437 - conftest - INFO - Positive test - Passed
+2024-08-15 17:03:54,462 - conftest - INFO - Browser closed
+2024-08-15 17:03:57,499 - conftest - INFO - reached login screen
+2024-08-15 17:04:09,209 - conftest - INFO - Positive test - Passed
+2024-08-15 17:04:09,228 - conftest - INFO - Browser closed
+2024-08-15 17:04:12,201 - conftest - INFO - reached login screen
+2024-08-15 17:04:16,607 - conftest - INFO - Positive test - Passed
+2024-08-15 17:04:16,628 - conftest - INFO - Browser closed
+2024-08-15 17:04:22,004 - conftest - INFO - reached login screen
+2024-08-15 17:04:29,539 - conftest - INFO - Positive test - Passed
+2024-08-15 17:04:29,602 - conftest - INFO - Browser closed
+2024-08-15 17:04:33,009 - conftest - INFO - reached login screen
+2024-08-15 17:04:38,015 - conftest - INFO - Positive test - Passed
+2024-08-15 17:04:38,033 - conftest - INFO - Browser closed
+2024-08-15 17:04:43,223 - conftest - INFO - reached login screen
+2024-08-15 17:04:49,938 - conftest - INFO - Positive test - Passed
+2024-08-15 17:04:49,956 - conftest - INFO - Browser closed
+2024-08-15 17:04:52,927 - conftest - INFO - reached login screen
+2024-08-15 17:04:59,027 - conftest - INFO - Positive test - Passed
+2024-08-15 17:04:59,044 - conftest - INFO - Browser closed
