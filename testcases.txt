@@ -15,23 +15,29 @@ Negative: (tuple with email/error parameters: config.NEGATIVE_EMAILS)
     * More then 30 symbols username with.!#$%&'*+/=?^_{|}~,not exists  "Couldn’t find your Google Account"
     * Less than 6 symbols username                                      "Couldn’t find your Google Account"
     * Valid phone. not exists                                          "Couldn’t find your Google Account. Try using your email address instead."  +972537291567
-    * Invalid phone (less digits)             "Enter a valid email or phone number"           +97253729156
-    * Invalid phone (more digits)             "Enter a valid email or phone number"           +9725372915667
+    * Invalid phone (less digits)                                       "Enter a valid email or phone number"           +97253729156
+    * Invalid phone (more digits)                                        "Enter a valid email or phone number"           +9725372915667
+
 Positive:
 
     * Valid standard, exists                   navigated, Password field visible
-    * Valid
+    * Valid minimal username 6 digits          navigated, Password field visible
+    * Valid minimal username 6 digits          navigated, Password field visible
     * Valid with .!#$%&'*+/=?^_{|}~ exists     navigated, Password field visible           test!#$%&'*+/=?^_{|}~@google.com
-    Not applies - invalidated on account creation attempt with "Sorry, only letters (a-z), numbers (0-9), and periods (.) are allowed.", though for negative data set we getting  "Couldn’t find your Google Account" and not  "Enter a valid email or phone number"
-
-    * Valid phone, exists                      navigated to https://accounts.google.com/v3/signin/challenge/recaptcha?TL=AKeb6mz2DYotoJ3dgTVRiN4XQhguq18oTmisYfKWzYSRxk8pQeKVHOkqvgCEzkpv&checkConnection=youtube%3A551&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Faccounts.google.com%2F&ddm=0&dsh=S588166987%3A1723616566674217&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=Ab5oB3qMJ_aKyko4EhJgJchACvatezD8ZSzrrqk88JbSdRGVR1SDXqH8nzTgRlpO9m6HNh31HnZr4g&pstMsg=1
-
-button = browser_instance.locator('xpath=//*[@id="yDmH0d"]/c-wiz/div/div[3]/div/div[2]/div/div/button/span')
-    button.wait_for(state="visible", timeout=20000)
-    assert button.is_visible()
-    *
-
-    Characters !#$%&'*+/=?^_{|}~ are valid in the local part of an email address according to the standard email format rules.
+    Not applies - invalidated on account creation attempt with "Sorry, only letters (a-z), numbers (0-9), and periods (.) are allowed.", though for negative data set we getting  "Couldn’t find your Google Account" and not  "Enter a valid email or phone number" ( Characters !#$%&'*+/=?^_{|}~ are valid in the local part of an email address according to the standard email format rules, but actually invalidated on account creation)
 (https://datatracker.ietf.org/doc/html/rfc5322)
+)
 
+    * Valid phone, exists                      navigated to https://accounts.google.com/v3/signin/challenge/recaptcha?TL=AKeb6mz2DYotoJ3dgTVRiN4XQhguq18oTmisYfKWzYSRxk8pQeKVHOkqvgCEzkpv&checkConnection=youtube%3A551&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Faccounts.google.com%2F&ddm=0&dsh=S588166987%3A1723616566674217&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=Ab5oB3qMJ_aKyko4EhJgJchACvatezD8ZSzrrqk88JbSdRGVR1SDXqH8nzTgRlpO9m6HNh31HnZr4g&pstMsg=1  & requested further auth
+
+
+Password field:
+ Positive:
+* Real password                               navigated, User Greeting
+
+Negative: 
+* 5 Different variations of password, (differences in case, order, numbers, symbols)(tuple with  parameters: config.WRONG_PW)
+
+
+   
 
